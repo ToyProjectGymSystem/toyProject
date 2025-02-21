@@ -436,3 +436,133 @@ VALUES (66, TO_DATE('2025-01-26', 'YYYY-MM-DD'), 13, 5, 1, 1);
 
 select * from tProgramRegistration;
 delete from tProgramRegistration;
+
+
+
+
+-- 12.강습요일
+-- 월, 수요일에 해당하는 프로그램 (프로그램 PK: 1, 2)
+INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (1, 1, 1);
+INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (2, 3, 1);
+INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (3, 1, 2);
+INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (4, 3, 2);
+
+-- 화, 목요일에 해당하는 프로그램 (프로그램 PK: 3)
+INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (5, 2, 3);
+INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (6, 4, 3);
+
+select * from tDayType;
+delete from tDayType;
+
+
+
+
+
+-- +추가 
+-- 13. 락커
+
+-- 남자 락커 (총 40개)
+-- 30일 (15개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (1, '남자1', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (2, '남자2', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (3, '남자3', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (4, '남자4', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (5, '남자5', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (6, '남자6', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (7, '남자7', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (8, '남자8', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (9, '남자9', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (10, '남자10', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (11, '남자11', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (12, '남자12', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (13, '남자13', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (14, '남자14', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (15, '남자15', 30, 30000);
+
+-- 60일 (15개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (16, '남자16', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (17, '남자17', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (18, '남자18', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (19, '남자19', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (20, '남자20', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (21, '남자21', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (22, '남자22', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (23, '남자23', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (24, '남자24', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (25, '남자25', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (26, '남자26', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (27, '남자27', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (28, '남자28', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (29, '남자29', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (30, '남자30', 60, 55000);
+
+-- 180일 (7개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (31, '남자31', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (32, '남자32', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (33, '남자33', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (34, '남자34', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (35, '남자35', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (36, '남자36', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (37, '남자37', 180, 140000);
+
+-- 365일 (3개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (38, '남자38', 365, 260000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (39, '남자39', 365, 260000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (40, '남자40', 365, 260000);
+
+-- 여자 락커 (총 40개)
+-- 30일 (15개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (41, '여자1', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (42, '여자2', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (43, '여자3', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (44, '여자4', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (45, '여자5', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (46, '여자6', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (47, '여자7', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (48, '여자8', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (49, '여자9', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (50, '여자10', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (51, '여자11', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (52, '여자12', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (53, '여자13', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (54, '여자14', 30, 30000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (55, '여자15', 30, 30000);
+
+-- 60일 (15개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (56, '여자16', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (57, '여자17', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (58, '여자18', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (59, '여자19', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (60, '여자20', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (61, '여자21', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (62, '여자22', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (63, '여자23', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (64, '여자24', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (65, '여자25', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (66, '여자26', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (67, '여자27', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (68, '여자28', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (69, '여자29', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (70, '여자30', 60, 55000);
+
+-- 180일 (7개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (71, '여자31', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (72, '여자32', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (73, '여자33', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (74, '여자34', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (75, '여자35', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (76, '여자36', 180, 140000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (77, '여자37', 180, 140000);
+
+-- 365일 (3개)
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (78, '여자38', 365, 260000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (79, '여자39', 365, 260000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (80, '여자40', 365, 260000);
+
+
+
+select * from tLocker;
+delete from tLocker;
+
+
+-- 14. 락커등록
