@@ -10,11 +10,13 @@ select * from tAdminister;
 -- 2. 인간상태
 INSERT INTO tSituationType (situation_type_id, type) VALUES (1, '기간만료');
 INSERT INTO tSituationType (situation_type_id, type) VALUES (2, '진행중');
-INSERT INTO tSituationType (situation_type_id, type) VALUES (3, '휴회');
-INSERT INTO tSituationType (situation_type_id, type) VALUES (4, '재직');
-INSERT INTO tSituationType (situation_type_id, type) VALUES (5, '퇴사');
-INSERT INTO tSituationType (situation_type_id, type) VALUES (6, '휴가');
-INSERT INTO tSituationType (situation_type_id, type) VALUES (7, '병결');
+INSERT INTO tSituationType (situation_type_id, type) VALUES (3, '진행예정');
+INSERT INTO tSituationType (situation_type_id, type) VALUES (4, '휴회');
+INSERT INTO tSituationType (situation_type_id, type) VALUES (5, '재직');
+INSERT INTO tSituationType (situation_type_id, type) VALUES (6, '퇴사');
+INSERT INTO tSituationType (situation_type_id, type) VALUES (7, '휴가');
+INSERT INTO tSituationType (situation_type_id, type) VALUES (8, '병결');
+
 
 select * from tSituationType;
 
@@ -119,7 +121,7 @@ select * from tTime;
 
 -- 6. 결제상태유형
 INSERT INTO tPayment VALUES (1, '결제완료');
-INSERT INTO tPayment VALUES (2, '예약');
+INSERT INTO tPayment VALUES (2, '결제대기');
 INSERT INTO tPayment VALUES (3, '환불');
 
 select * from tPayment;
@@ -131,6 +133,7 @@ INSERT INTO tPaymentType VALUES (1, '카드');
 INSERT INTO tPaymentType VALUES (2, '현금');
 
 select * from tPaymentType;
+
 
 -- 8. 요일
 INSERT INTO tDay (day_id, day) VALUES (1, '월');
@@ -164,4 +167,81 @@ select * from tProgram;
 
 
 -- 10. 프로그램(개설)
-INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_time,program_id, instroctor_id, time_id) VALUES (1, );
+-- 요가 (기간 지남, 퇴사 강사 배정)
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (1, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 8, 1, 11, 1);
+
+-- 필라테스 & 스피닝 (진행 중, 각 15명씩 수업 중)
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (2, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 8, 2, 1, 3);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (3, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 8, 10, 2, 2);
+
+-- 헬스 (1개월 1개 시간 지남),(1개월 1개, 3개월 5개, 6개월 2개, 1년 1개 진행 중), 강사와 시간 고정
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (4, TO_DATE('2025-01-22', 'YYYY-MM-DD'), TO_DATE('2025-02-21', 'YYYY-MM-DD'), NULL, 3, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (5, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-03-05', 'YYYY-MM-DD'), NULL, 3, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (6, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-05-01', 'YYYY-MM-DD'), NULL, 4, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (7, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-05-05', 'YYYY-MM-DD'), NULL, 4, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (8, TO_DATE('2025-02-10', 'YYYY-MM-DD'), TO_DATE('2025-05-10', 'YYYY-MM-DD'), NULL, 4, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (9, TO_DATE('2025-02-15', 'YYYY-MM-DD'), TO_DATE('2025-05-15', 'YYYY-MM-DD'), NULL, 4, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (10, TO_DATE('2025-01-22', 'YYYY-MM-DD'), TO_DATE('2025-04-22', 'YYYY-MM-DD'), NULL, 4, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (11, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-08-01', 'YYYY-MM-DD'), NULL, 5, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (12, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-08-01', 'YYYY-MM-DD'), NULL, 5, 10, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (13, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2026-02-01', 'YYYY-MM-DD'), NULL, 6, 10, null);
+
+-- PT (1개월 3명, 3개월 5명, 6개월 2명, 진행 중, 시작 날짜 다르게 설정, 강사는 재직 중인 강사 중 무작위 배정)
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (14, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-03-01', 'YYYY-MM-DD'), 10, 7, 1, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (15, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-03-05', 'YYYY-MM-DD'), 10, 7, 2, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (16, TO_DATE('2025-02-10', 'YYYY-MM-DD'), TO_DATE('2025-03-10', 'YYYY-MM-DD'), 10, 7, 3, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (17, TO_DATE('2025-06-10', 'YYYY-MM-DD'), TO_DATE('2025-09-10', 'YYYY-MM-DD'), 30, 8, 4, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (18, TO_DATE('2025-09-10', 'YYYY-MM-DD'), TO_DATE('2025-12-10', 'YYYY-MM-DD'), 30, 8, 7, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (19, TO_DATE('2025-12-10', 'YYYY-MM-DD'), TO_DATE('2026-03-10', 'YYYY-MM-DD'), 30, 8, 2, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (20, TO_DATE('2026-03-10', 'YYYY-MM-DD'), TO_DATE('2026-06-10', 'YYYY-MM-DD'), 30, 8, 9, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
+VALUES (21, TO_DATE('2026-06-10', 'YYYY-MM-DD'), TO_DATE('2026-09-10', 'YYYY-MM-DD'), 30, 8, 5, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id) 
+VALUES (22, TO_DATE('2026-09-10', 'YYYY-MM-DD'), TO_DATE('2027-03-10', 'YYYY-MM-DD'), 60, 9, 3, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id) 
+VALUES (23, TO_DATE('2027-03-10', 'YYYY-MM-DD'), TO_DATE('2027-09-10', 'YYYY-MM-DD'), 60, 9, 6, null);
+
+INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id) 
+VALUES (24, TO_DATE('2027-09-10', 'YYYY-MM-DD'), TO_DATE('2028-03-10', 'YYYY-MM-DD'), 60, 9, 8, null);
+  
+select * from tOpenProgram;
+delete from tOpenProgram;
