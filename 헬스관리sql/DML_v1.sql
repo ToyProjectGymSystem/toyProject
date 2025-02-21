@@ -183,33 +183,33 @@ INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, pr
 VALUES (4, TO_DATE('2025-01-22', 'YYYY-MM-DD'), TO_DATE('2025-02-21', 'YYYY-MM-DD'), NULL, 3, 10, null);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (5, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-03-05', 'YYYY-MM-DD'), NULL, 3, 10, null);
+VALUES (5, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-03-07', 'YYYY-MM-DD'), NULL, 3, 10, null);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (6, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-05-01', 'YYYY-MM-DD'), NULL, 4, 10, null);
+VALUES (6, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-05-02', 'YYYY-MM-DD'), NULL, 4, 10, NULL);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (7, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-05-05', 'YYYY-MM-DD'), NULL, 4, 10, null);
+VALUES (7, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-05-06', 'YYYY-MM-DD'), NULL, 4, 10, NULL);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (8, TO_DATE('2025-02-10', 'YYYY-MM-DD'), TO_DATE('2025-05-10', 'YYYY-MM-DD'), NULL, 4, 10, null);
+VALUES (8, TO_DATE('2025-02-10', 'YYYY-MM-DD'), TO_DATE('2025-05-11', 'YYYY-MM-DD'), NULL, 4, 10, NULL);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (9, TO_DATE('2025-02-15', 'YYYY-MM-DD'), TO_DATE('2025-05-15', 'YYYY-MM-DD'), NULL, 4, 10, null);
+VALUES (9, TO_DATE('2025-02-15', 'YYYY-MM-DD'), TO_DATE('2025-05-16', 'YYYY-MM-DD'), NULL, 4, 10, NULL);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (10, TO_DATE('2025-01-22', 'YYYY-MM-DD'), TO_DATE('2025-04-22', 'YYYY-MM-DD'), NULL, 4, 10, null);
+VALUES (10, TO_DATE('2025-01-22', 'YYYY-MM-DD'), TO_DATE('2025-04-22', 'YYYY-MM-DD'), NULL, 4, 10, NULL);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (11, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-08-01', 'YYYY-MM-DD'), NULL, 5, 10, null);
+VALUES (11, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-07-31', 'YYYY-MM-DD'), NULL, 5, 10, NULL);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (12, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-08-01', 'YYYY-MM-DD'), NULL, 5, 10, null);
+VALUES (12, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-07-31', 'YYYY-MM-DD'), NULL, 5, 10, NULL);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
 VALUES (13, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2026-02-01', 'YYYY-MM-DD'), NULL, 6, 10, null);
 
--- PT (1개월 3명, 3개월 5명, 6개월 2명, 진행 중, 시작 날짜 다르게 설정, 강사는 재직 중인 강사 중 무작위 배정)
+-- PT (1개월 2명, 3개월 5명, 6개월 2명, 진행 중, 시작 날짜 다르게 설정, 강사는 재직 중인 강사 중 무작위 배정)
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
 VALUES (14, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-03-01', 'YYYY-MM-DD'), 10, 7, 1, null);
 
@@ -217,31 +217,222 @@ INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, pr
 VALUES (15, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-03-05', 'YYYY-MM-DD'), 10, 7, 2, null);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (16, TO_DATE('2025-02-10', 'YYYY-MM-DD'), TO_DATE('2025-03-10', 'YYYY-MM-DD'), 10, 7, 3, null);
+VALUES (16, TO_DATE('2025-02-10', 'YYYY-MM-DD'), TO_DATE('2025-05-11', 'YYYY-MM-DD'), 30, 8, 4, null);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (17, TO_DATE('2025-06-10', 'YYYY-MM-DD'), TO_DATE('2025-09-10', 'YYYY-MM-DD'), 30, 8, 4, null);
-
-INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (18, TO_DATE('2025-09-10', 'YYYY-MM-DD'), TO_DATE('2025-12-10', 'YYYY-MM-DD'), 30, 8, 7, null);
-
-INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (19, TO_DATE('2025-12-10', 'YYYY-MM-DD'), TO_DATE('2026-03-10', 'YYYY-MM-DD'), 30, 8, 2, null);
-
-INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (20, TO_DATE('2026-03-10', 'YYYY-MM-DD'), TO_DATE('2026-06-10', 'YYYY-MM-DD'), 30, 8, 9, null);
-
-INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id)
-VALUES (21, TO_DATE('2026-06-10', 'YYYY-MM-DD'), TO_DATE('2026-09-10', 'YYYY-MM-DD'), 30, 8, 5, null);
+VALUES (17, TO_DATE('2025-02-11', 'YYYY-MM-DD'), TO_DATE('2025-05-12', 'YYYY-MM-DD'), 30, 8, 7, null);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id) 
-VALUES (22, TO_DATE('2026-09-10', 'YYYY-MM-DD'), TO_DATE('2027-03-10', 'YYYY-MM-DD'), 60, 9, 3, null);
+VALUES (18, TO_DATE('2025-01-10', 'YYYY-MM-DD'), TO_DATE('2025-07-09', 'YYYY-MM-DD'), 60, 9, 3, null);
 
 INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id) 
-VALUES (23, TO_DATE('2027-03-10', 'YYYY-MM-DD'), TO_DATE('2027-09-10', 'YYYY-MM-DD'), 60, 9, 6, null);
+VALUES (19, TO_DATE('2025-01-14', 'YYYY-MM-DD'), TO_DATE('2025-07-13', 'YYYY-MM-DD'), 60, 9, 6, null);
 
-INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, program_id, instroctor_id, time_id) 
-VALUES (24, TO_DATE('2027-09-10', 'YYYY-MM-DD'), TO_DATE('2028-03-10', 'YYYY-MM-DD'), 60, 9, 8, null);
+
   
 select * from tOpenProgram;
 delete from tOpenProgram;
+
+
+
+-- 11. 프로그램(등록)
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (1, TO_DATE('2024-12-30', 'YYYY-MM-DD'), 1, 31, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (2, TO_DATE('2024-12-29', 'YYYY-MM-DD'), 1, 32, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (3, TO_DATE('2024-12-28', 'YYYY-MM-DD'), 1, 33, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (4, TO_DATE('2024-12-27', 'YYYY-MM-DD'), 1, 34, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (5, TO_DATE('2024-12-26', 'YYYY-MM-DD'), 1, 35, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (6, TO_DATE('2024-12-25', 'YYYY-MM-DD'), 1, 36, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (7, TO_DATE('2024-12-24', 'YYYY-MM-DD'), 1, 37, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (8, TO_DATE('2024-12-23', 'YYYY-MM-DD'), 1, 38, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (9, TO_DATE('2024-12-22', 'YYYY-MM-DD'), 1, 39, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (10, TO_DATE('2024-12-21', 'YYYY-MM-DD'), 1, 40, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (11, TO_DATE('2024-12-20', 'YYYY-MM-DD'), 1, 41, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (12, TO_DATE('2024-12-19', 'YYYY-MM-DD'), 1, 42, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (13, TO_DATE('2024-12-18', 'YYYY-MM-DD'), 1, 43, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (14, TO_DATE('2024-12-17', 'YYYY-MM-DD'), 1, 44, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (15, TO_DATE('2024-12-16', 'YYYY-MM-DD'), 1, 45, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (16, TO_DATE('2024-12-15', 'YYYY-MM-DD'), 1, 46, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (17, TO_DATE('2024-12-14', 'YYYY-MM-DD'), 1, 47, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (18, TO_DATE('2024-12-13', 'YYYY-MM-DD'), 1, 48, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (19, TO_DATE('2024-12-12', 'YYYY-MM-DD'), 1, 49, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (20, TO_DATE('2024-12-11', 'YYYY-MM-DD'), 1, 50, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (21, TO_DATE('2025-02-15', 'YYYY-MM-DD'), 2, 31, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (22, TO_DATE('2025-02-14', 'YYYY-MM-DD'), 2, 32, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (23, TO_DATE('2025-02-13', 'YYYY-MM-DD'), 2, 33, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (24, TO_DATE('2025-02-12', 'YYYY-MM-DD'), 2, 1, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (25, TO_DATE('2025-02-11', 'YYYY-MM-DD'), 2, 2, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (26, TO_DATE('2025-02-10', 'YYYY-MM-DD'), 2, 3, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (27, TO_DATE('2025-02-09', 'YYYY-MM-DD'), 2, 4, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (28, TO_DATE('2025-02-08', 'YYYY-MM-DD'), 2, 5, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (29, TO_DATE('2025-02-07', 'YYYY-MM-DD'), 2, 6, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (30, TO_DATE('2025-02-06', 'YYYY-MM-DD'), 2, 7, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (31, TO_DATE('2025-02-05', 'YYYY-MM-DD'), 2, 8, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (32, TO_DATE('2025-02-04', 'YYYY-MM-DD'), 2, 9, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (33, TO_DATE('2025-02-03', 'YYYY-MM-DD'), 2, 10, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (34, TO_DATE('2025-02-02', 'YYYY-MM-DD'), 2, 11, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (35, TO_DATE('2025-02-01', 'YYYY-MM-DD'), 2, 12, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (36, TO_DATE('2025-02-18', 'YYYY-MM-DD'), 3, 34, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (37, TO_DATE('2025-02-17', 'YYYY-MM-DD'), 3, 35, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (38, TO_DATE('2025-02-16', 'YYYY-MM-DD'), 3, 13, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (39, TO_DATE('2025-02-15', 'YYYY-MM-DD'), 3, 14, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (40, TO_DATE('2025-02-14', 'YYYY-MM-DD'), 3, 15, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (41, TO_DATE('2025-02-13', 'YYYY-MM-DD'), 3, 16, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (42, TO_DATE('2025-02-12', 'YYYY-MM-DD'), 3, 17, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (43, TO_DATE('2025-02-11', 'YYYY-MM-DD'), 3, 18, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (44, TO_DATE('2025-02-10', 'YYYY-MM-DD'), 3, 19, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (45, TO_DATE('2025-02-09', 'YYYY-MM-DD'), 3, 20, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (46, TO_DATE('2025-02-08', 'YYYY-MM-DD'), 3, 21, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (47, TO_DATE('2025-02-07', 'YYYY-MM-DD'), 3, 22, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (48, TO_DATE('2025-02-06', 'YYYY-MM-DD'), 3, 23, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (49, TO_DATE('2025-02-05', 'YYYY-MM-DD'), 3, 24, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (50, TO_DATE('2025-02-04', 'YYYY-MM-DD'), 3, 25, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (51, TO_DATE('2025-01-14', 'YYYY-MM-DD'), 4, 45, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (52, TO_DATE('2025-02-01', 'YYYY-MM-DD'), 5, 26, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (53, TO_DATE('2025-01-20', 'YYYY-MM-DD'), 6, 36, 1, 1);--헬스, 회원 36,37,38
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (54, TO_DATE('2025-01-20', 'YYYY-MM-DD'), 7, 37, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (55, TO_DATE('2025-01-25', 'YYYY-MM-DD'), 8, 38, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (56, TO_DATE('2025-01-25', 'YYYY-MM-DD'), 14, 39, 1, 1); --pt 회원 39,40
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (57, TO_DATE('2025-02-01', 'YYYY-MM-DD'), 15, 40, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (58, TO_DATE('2025-02-01', 'YYYY-MM-DD'), 16, 27, 1, 1); --27~30
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (59, TO_DATE('2025-02-01', 'YYYY-MM-DD'), 17, 28, 1, 2);--수정
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (60, TO_DATE('2025-01-03', 'YYYY-MM-DD'), 18, 29, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (61, TO_DATE('2025-01-06', 'YYYY-MM-DD'), 19, 30, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (62, TO_DATE('2025-01-06', 'YYYY-MM-DD'), 9, 1, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (63, TO_DATE('2025-01-16', 'YYYY-MM-DD'), 10, 2, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (64, TO_DATE('2025-01-26', 'YYYY-MM-DD'), 11, 3, 1, 2);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (65, TO_DATE('2025-01-26', 'YYYY-MM-DD'), 12, 4, 1, 1);
+
+INSERT INTO tProgramRegistration (program_registration, payment_day, open_program_id, member_id, payment_id, payment_type_id)
+VALUES (66, TO_DATE('2025-01-26', 'YYYY-MM-DD'), 13, 5, 1, 1);
+
+select * from tProgramRegistration;
+delete from tProgramRegistration;
