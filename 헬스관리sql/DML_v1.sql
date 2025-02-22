@@ -480,21 +480,21 @@ INSERT INTO tLocker (locker_id, title, period, price) VALUES (14, '남자14', 30
 INSERT INTO tLocker (locker_id, title, period, price) VALUES (15, '남자15', 30, 30000);
 
 -- 60일 (15개)
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (16, '남자16', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (17, '남자17', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (18, '남자18', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (19, '남자19', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (20, '남자20', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (21, '남자21', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (22, '남자22', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (23, '남자23', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (24, '남자24', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (25, '남자25', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (26, '남자26', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (27, '남자27', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (28, '남자28', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (29, '남자29', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (30, '남자30', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (16, '남자16', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (17, '남자17', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (18, '남자18', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (19, '남자19', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (20, '남자20', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (21, '남자21', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (22, '남자22', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (23, '남자23', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (24, '남자24', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (25, '남자25', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (26, '남자26', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (27, '남자27', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (28, '남자28', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (29, '남자29', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (30, '남자30', 90, 55000);
 
 -- 180일 (7개)
 INSERT INTO tLocker (locker_id, title, period, price) VALUES (31, '남자31', 180, 140000);
@@ -529,21 +529,21 @@ INSERT INTO tLocker (locker_id, title, period, price) VALUES (54, '여자14', 30
 INSERT INTO tLocker (locker_id, title, period, price) VALUES (55, '여자15', 30, 30000);
 
 -- 60일 (15개)
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (56, '여자16', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (57, '여자17', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (58, '여자18', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (59, '여자19', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (60, '여자20', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (61, '여자21', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (62, '여자22', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (63, '여자23', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (64, '여자24', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (65, '여자25', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (66, '여자26', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (67, '여자27', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (68, '여자28', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (69, '여자29', 60, 55000);
-INSERT INTO tLocker (locker_id, title, period, price) VALUES (70, '여자30', 60, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (56, '여자16', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (57, '여자17', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (58, '여자18', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (59, '여자19', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (60, '여자20', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (61, '여자21', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (62, '여자22', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (63, '여자23', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (64, '여자24', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (65, '여자25', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (66, '여자26', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (67, '여자27', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (68, '여자28', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (69, '여자29', 90, 55000);
+INSERT INTO tLocker (locker_id, title, period, price) VALUES (70, '여자30', 90, 55000);
 
 -- 180일 (7개)
 INSERT INTO tLocker (locker_id, title, period, price) VALUES (71, '여자31', 180, 140000);
@@ -566,3 +566,109 @@ delete from tLocker;
 
 
 -- 14. 락커등록
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (1, TO_DATE('2025-02-15', 'YYYY-MM-DD'), TO_DATE('2025-05-16', 'YYYY-MM-DD'), 1, 16);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (2, TO_DATE('2025-01-22', 'YYYY-MM-DD'), TO_DATE('2025-04-22', 'YYYY-MM-DD'), 2, 56);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (3, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-07-31', 'YYYY-MM-DD'), 3, 31);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (4, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2025-07-31', 'YYYY-MM-DD'), 4, 32);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (5, TO_DATE('2025-02-01', 'YYYY-MM-DD'), TO_DATE('2026-02-01', 'YYYY-MM-DD'), 5, 78);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (6, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 6, 1);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (7, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 7, 41);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (8, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 8, 2);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (9, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 9, 42);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (10, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 10, 3);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (11, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 11, 4);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (12, TO_DATE('2025-02-17', 'YYYY-MM-DD'), TO_DATE('2025-03-19', 'YYYY-MM-DD'), 12, 43);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (13, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 13, 5);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (14, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 14, 44);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (15, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 15, 6);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (16, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 16, 45);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (17, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 17, 7);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (18, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 18, 46);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (19, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 19, 8);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (20, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 20, 9);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (21, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 21, 10);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (22, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 22, 47);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (23, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 23, 11);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (24, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 24, 48);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (25, TO_DATE('2025-02-20', 'YYYY-MM-DD'), TO_DATE('2025-03-22', 'YYYY-MM-DD'), 25, 12);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (26, TO_DATE('2025-02-05', 'YYYY-MM-DD'), TO_DATE('2025-03-07', 'YYYY-MM-DD'), 26, 49);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (27, TO_DATE('2025-02-10', 'YYYY-MM-DD'), TO_DATE('2025-05-11', 'YYYY-MM-DD'), 27, 17);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (28, TO_DATE('2025-02-11', 'YYYY-MM-DD'), TO_DATE('2025-05-12', 'YYYY-MM-DD'), 28, 57);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (29, TO_DATE('2025-01-10', 'YYYY-MM-DD'), TO_DATE('2025-07-09', 'YYYY-MM-DD'), 29, 33);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (30, TO_DATE('2025-01-14', 'YYYY-MM-DD'), TO_DATE('2025-07-13', 'YYYY-MM-DD'), 30, 71);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (31, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 31, 18);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (32, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 32, 58);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (33, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 33, 19);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (34, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 34, 59);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (35, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 35, 20);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (36, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-06-30', 'YYYY-MM-DD'), 36, 72);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (37, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-06-30', 'YYYY-MM-DD'), 37, 34);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (38, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-06-30', 'YYYY-MM-DD'), 38, 73);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (39, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 39, 21);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (40, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 40, 22);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (41, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 41, 55);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (42, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 42, 15);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (43, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 43, 54);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (44, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 44, 14);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (45, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-04-01', 'YYYY-MM-DD'), 45, 70);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (46, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 46, 13);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (47, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 47, 1);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (48, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 48, 53);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (49, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 49, 2);
+INSERT INTO tLokerReistration (locker_reistration_id, start_date, end_date, member_id, locker_id)
+VALUES (50, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-DD'), 50, 52);
+
+
+
+
+select * from tLokerReistration;
+delete from tLokerReistration;
