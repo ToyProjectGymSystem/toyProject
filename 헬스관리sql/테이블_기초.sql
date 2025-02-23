@@ -34,3 +34,12 @@ from tProgramRegistration tpr
     inner join tmember m on m.member_id = tpr.member_id
     inner join tOpenProgram op on op.open_program_id=tpr.open_program_id
     inner join tProgram p on p.program_id = op.program_id;
+    
+-- 요일, 프로그램명, 시작 시간 view    
+select d.day, p.title, t.start_time
+from tDayType dt
+    inner join tday d on d.day_id=dt.day_id
+    inner join tOpenProgram op on op.open_program_id=dt.open_program_id
+    inner join tProgram p on p.program_id = op.program_id
+    inner join tTime t on t.time_id = op.time_id;
+
