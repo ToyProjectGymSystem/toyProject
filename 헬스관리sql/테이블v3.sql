@@ -188,11 +188,13 @@ drop table tMemberAttendance;
 -- 회원 출석
 create table tMemberAttendance (
     member_attendance_id number primary key,    -- PK
-    day_date varchar2(50),                          -- 날짜
-    position date,                              -- 입장                                       
+    day_date date,                          -- 날짜                                     
     
     member_id number,   -- 회원(FK)
-    constraint fk_tMemberAttendance_tMember foreign key (member_id) references tMember(member_id)
+    constraint fk_tMemberAttendance_tMember foreign key (member_id) references tMember(member_id),
+    program_registration NUMBER, -- 프로그램 등록(FK)
+    CONSTRAINT fk_tMemberAttendance_tProgramRegistration FOREIGN KEY (program_registration) 
+        REFERENCES tProgramRegistration(program_registration)
 );
 select * from tMemberAttendance;
 

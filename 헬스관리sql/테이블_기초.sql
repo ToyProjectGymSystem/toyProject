@@ -19,3 +19,18 @@ from tProgramRegistration tpr
 --WHERE op.end_date >'2025-02-22'
     --order by m.member_id;
         
+select * from tProgramRegistration;
+
+-- 이름pk, 이름, 성별, 프로그램 이름,횟수, 시작일, 종료일 view      
+select 
+    m.member_id as 회원번호, 
+    m.name as 회원이름, 
+    p.title as 프로그램명,
+    tpr.program_registration as 등록pk,
+    op.total_count as 횟수, 
+    op.start_date as 시작일, 
+    op.end_date as 종료일
+from tProgramRegistration tpr
+    inner join tmember m on m.member_id = tpr.member_id
+    inner join tOpenProgram op on op.open_program_id=tpr.open_program_id
+    inner join tProgram p on p.program_id = op.program_id;
