@@ -992,8 +992,1512 @@ VALUES (329, '2025/03/30', TO_DATE('2025/03/30 09:00:00','YYYY/MM/DD HH24:MI:SS'
 INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
 VALUES (330, '2025/03/31', TO_DATE('2025/03/31 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/31 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
 
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (331, '2025/04/01', TO_DATE('2025/04/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
 
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (332, '2025/04/02', TO_DATE('2025/04/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
 
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (333, '2025/04/03', TO_DATE('2025/04/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (334, '2025/04/04', TO_DATE('2025/04/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (335, '2025/04/05', TO_DATE('2025/04/05 09:15:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (336, '2025/04/06', TO_DATE('2025/04/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (337, '2025/04/07', TO_DATE('2025/04/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (338, '2025/04/08', TO_DATE('2025/04/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (339, '2025/04/09', TO_DATE('2025/04/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (340, '2025/04/10', TO_DATE('2025/04/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/10 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (341, '2025/04/11', TO_DATE('2025/04/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (342, '2025/04/12', TO_DATE('2025/04/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (343, '2025/04/13', TO_DATE('2025/04/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (344, '2025/04/14', TO_DATE('2025/04/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (345, '2025/04/15', TO_DATE('2025/04/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (346, '2025/04/16', TO_DATE('2025/04/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (347, '2025/04/17', TO_DATE('2025/04/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (348, '2025/04/18', TO_DATE('2025/04/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (349, '2025/04/19', TO_DATE('2025/04/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (350, '2025/04/20', TO_DATE('2025/04/20 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (351, '2025/04/21', TO_DATE('2025/04/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (352, '2025/04/22', TO_DATE('2025/04/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (353, '2025/04/23', TO_DATE('2025/04/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (354, '2025/04/24', TO_DATE('2025/04/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (355, '2025/04/25', TO_DATE('2025/04/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/25 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (356, '2025/04/26', TO_DATE('2025/04/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (357, '2025/04/27', TO_DATE('2025/04/27 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (358, '2025/04/28', TO_DATE('2025/04/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (359, '2025/04/29', TO_DATE('2025/04/29 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (360, '2025/04/30', TO_DATE('2025/04/30 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 3);
+
+--4번강사
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (361, '2025/01/01', TO_DATE('2025/01/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (362, '2025/01/02', TO_DATE('2025/01/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (363, '2025/01/03', TO_DATE('2025/01/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (364, '2025/01/04', TO_DATE('2025/01/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (365, '2025/01/05', TO_DATE('2025/01/05 09:12:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (366, '2025/01/06', TO_DATE('2025/01/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (367, '2025/01/07', TO_DATE('2025/01/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (368, '2025/01/08', TO_DATE('2025/01/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (369, '2025/01/09', TO_DATE('2025/01/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (370, '2025/01/10', TO_DATE('2025/01/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/10 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (371, '2025/01/11', TO_DATE('2025/01/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (372, '2025/01/12', TO_DATE('2025/01/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (373, '2025/01/13', TO_DATE('2025/01/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (374, '2025/01/14', TO_DATE('2025/01/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (375, '2025/01/15', TO_DATE('2025/01/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (376, '2025/01/16', TO_DATE('2025/01/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (377, '2025/01/17', TO_DATE('2025/01/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (378, '2025/01/18', TO_DATE('2025/01/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (379, '2025/01/19', TO_DATE('2025/01/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (380, '2025/01/20', TO_DATE('2025/01/20 09:15:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (381, '2025/01/21', TO_DATE('2025/01/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (382, '2025/01/22', TO_DATE('2025/01/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (383, '2025/01/23', TO_DATE('2025/01/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (384, '2025/01/24', TO_DATE('2025/01/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (385, '2025/01/25', TO_DATE('2025/01/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/25 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (386, '2025/01/26', TO_DATE('2025/01/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (387, '2025/01/27', TO_DATE('2025/01/27 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (388, '2025/01/28', TO_DATE('2025/01/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (389, '2025/01/29', TO_DATE('2025/01/29 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (390, '2025/01/30', TO_DATE('2025/01/30 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (391, '2025/01/31', TO_DATE('2025/01/31 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/31 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (392, '2025/02/01', TO_DATE('2025/02/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (393, '2025/02/02', TO_DATE('2025/02/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (394, '2025/02/03', TO_DATE('2025/02/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (395, '2025/02/04', TO_DATE('2025/02/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (396, '2025/02/05', TO_DATE('2025/02/05 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (397, '2025/02/06', TO_DATE('2025/02/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (398, '2025/02/07', TO_DATE('2025/02/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (399, '2025/02/08', TO_DATE('2025/02/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (400, '2025/02/09', TO_DATE('2025/02/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (401, '2025/02/10', TO_DATE('2025/02/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/10 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (402, '2025/02/11', TO_DATE('2025/02/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (403, '2025/02/12', TO_DATE('2025/02/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (404, '2025/02/13', TO_DATE('2025/02/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (405, '2025/02/14', TO_DATE('2025/02/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (406, '2025/02/15', TO_DATE('2025/02/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (407, '2025/02/16', TO_DATE('2025/02/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (408, '2025/02/17', TO_DATE('2025/02/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (409, '2025/02/18', TO_DATE('2025/02/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (410, '2025/02/19', TO_DATE('2025/02/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (411, '2025/02/20', TO_DATE('2025/02/20 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (412, '2025/02/21', TO_DATE('2025/02/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (413, '2025/02/22', TO_DATE('2025/02/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/22 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (414, '2025/02/23', TO_DATE('2025/02/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (415, '2025/02/24', TO_DATE('2025/02/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (416, '2025/02/25', TO_DATE('2025/02/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (417, '2025/02/26', TO_DATE('2025/02/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (418, '2025/02/27', TO_DATE('2025/02/27 09:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (419, '2025/02/28', TO_DATE('2025/02/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (420, '2025/03/01', TO_DATE('2025/03/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (421, '2025/03/02', TO_DATE('2025/03/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (422, '2025/03/03', TO_DATE('2025/03/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (423, '2025/03/04', TO_DATE('2025/03/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (424, '2025/03/05', TO_DATE('2025/03/05 09:12:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (425, '2025/03/06', TO_DATE('2025/03/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (426, '2025/03/07', TO_DATE('2025/03/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (427, '2025/03/08', TO_DATE('2025/03/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (428, '2025/03/09', TO_DATE('2025/03/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (429, '2025/03/10', TO_DATE('2025/03/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (430, '2025/03/11', TO_DATE('2025/03/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (431, '2025/03/12', TO_DATE('2025/03/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/12 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (432, '2025/03/13', TO_DATE('2025/03/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (433, '2025/03/14', TO_DATE('2025/03/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (434, '2025/03/15', TO_DATE('2025/03/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (435, '2025/03/16', TO_DATE('2025/03/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (436, '2025/03/17', TO_DATE('2025/03/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (437, '2025/03/18', TO_DATE('2025/03/18 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (438, '2025/03/19', TO_DATE('2025/03/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (439, '2025/03/20', TO_DATE('2025/03/20 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (440, '2025/03/21', TO_DATE('2025/03/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (441, '2025/03/22', TO_DATE('2025/03/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (442, '2025/03/23', TO_DATE('2025/03/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (443, '2025/03/24', TO_DATE('2025/03/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (444, '2025/03/25', TO_DATE('2025/03/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/25 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (445, '2025/03/26', TO_DATE('2025/03/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (446, '2025/03/27', TO_DATE('2025/03/27 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (447, '2025/03/28', TO_DATE('2025/03/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (448, '2025/03/29', TO_DATE('2025/03/29 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (449, '2025/03/30', TO_DATE('2025/03/30 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (450, '2025/03/31', TO_DATE('2025/03/31 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/31 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (451, '2025/04/01', TO_DATE('2025/04/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (452, '2025/04/02', TO_DATE('2025/04/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (453, '2025/04/03', TO_DATE('2025/04/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (454, '2025/04/04', TO_DATE('2025/04/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (455, '2025/04/05', TO_DATE('2025/04/05 09:12:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (456, '2025/04/06', TO_DATE('2025/04/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (457, '2025/04/07', TO_DATE('2025/04/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (458, '2025/04/08', TO_DATE('2025/04/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (459, '2025/04/09', TO_DATE('2025/04/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (460, '2025/04/10', TO_DATE('2025/04/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/10 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (461, '2025/04/11', TO_DATE('2025/04/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (462, '2025/04/12', TO_DATE('2025/04/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (463, '2025/04/13', TO_DATE('2025/04/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (464, '2025/04/14', TO_DATE('2025/04/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (465, '2025/04/15', TO_DATE('2025/04/15 09:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (466, '2025/04/16', TO_DATE('2025/04/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (467, '2025/04/17', TO_DATE('2025/04/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (468, '2025/04/18', TO_DATE('2025/04/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (469, '2025/04/19', TO_DATE('2025/04/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (470, '2025/04/20', TO_DATE('2025/04/20 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (471, '2025/04/21', TO_DATE('2025/04/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (472, '2025/04/22', TO_DATE('2025/04/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (473, '2025/04/23', TO_DATE('2025/04/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (474, '2025/04/24', TO_DATE('2025/04/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (475, '2025/04/25', TO_DATE('2025/04/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/25 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (476, '2025/04/26', TO_DATE('2025/04/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (477, '2025/04/27', TO_DATE('2025/04/27 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (478, '2025/04/28', TO_DATE('2025/04/28 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (479, '2025/04/29', TO_DATE('2025/04/29 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (480, '2025/04/30', TO_DATE('2025/04/30 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 4);
+
+--5번강사
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (481, '2025/01/01', TO_DATE('2025/01/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (482, '2025/01/02', TO_DATE('2025/01/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (483, '2025/01/03', TO_DATE('2025/01/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (484, '2025/01/04', TO_DATE('2025/01/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (485, '2025/01/05', TO_DATE('2025/01/05 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (486, '2025/01/06', TO_DATE('2025/01/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (487, '2025/01/07', TO_DATE('2025/01/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (488, '2025/01/08', TO_DATE('2025/01/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (489, '2025/01/09', TO_DATE('2025/01/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (490, '2025/01/10', TO_DATE('2025/01/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/10 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (491, '2025/01/11', TO_DATE('2025/01/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (492, '2025/01/12', TO_DATE('2025/01/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (493, '2025/01/13', TO_DATE('2025/01/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (494, '2025/01/14', TO_DATE('2025/01/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (495, '2025/01/15', TO_DATE('2025/01/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (496, '2025/01/16', TO_DATE('2025/01/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (497, '2025/01/17', TO_DATE('2025/01/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (498, '2025/01/18', TO_DATE('2025/01/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (499, '2025/01/19', TO_DATE('2025/01/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (500, '2025/01/20', TO_DATE('2025/01/20 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (501, '2025/01/21', TO_DATE('2025/01/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (502, '2025/01/22', TO_DATE('2025/01/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (503, '2025/01/23', TO_DATE('2025/01/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (504, '2025/01/24', TO_DATE('2025/01/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (505, '2025/01/25', TO_DATE('2025/01/25 09:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (506, '2025/01/26', TO_DATE('2025/01/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (507, '2025/01/27', TO_DATE('2025/01/27 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (508, '2025/01/28', TO_DATE('2025/01/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (509, '2025/01/29', TO_DATE('2025/01/29 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (510, '2025/01/30', TO_DATE('2025/01/30 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (511, '2025/01/31', TO_DATE('2025/01/31 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/31 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (512, '2025/02/01', TO_DATE('2025/02/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (513, '2025/02/02', TO_DATE('2025/02/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (514, '2025/02/03', TO_DATE('2025/02/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (515, '2025/02/04', TO_DATE('2025/02/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (516, '2025/02/05', TO_DATE('2025/02/05 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (517, '2025/02/06', TO_DATE('2025/02/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (518, '2025/02/07', TO_DATE('2025/02/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (519, '2025/02/08', TO_DATE('2025/02/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (520, '2025/02/09', TO_DATE('2025/02/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (521, '2025/02/10', TO_DATE('2025/02/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/10 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (522, '2025/02/11', TO_DATE('2025/02/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (523, '2025/02/12', TO_DATE('2025/02/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (524, '2025/02/13', TO_DATE('2025/02/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (525, '2025/02/14', TO_DATE('2025/02/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (526, '2025/02/15', TO_DATE('2025/02/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (527, '2025/02/16', TO_DATE('2025/02/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (528, '2025/02/17', TO_DATE('2025/02/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (529, '2025/02/18', TO_DATE('2025/02/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (530, '2025/02/19', TO_DATE('2025/02/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (531, '2025/02/20', TO_DATE('2025/02/20 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (532, '2025/02/21', TO_DATE('2025/02/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (533, '2025/02/22', TO_DATE('2025/02/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/22 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (534, '2025/02/23', TO_DATE('2025/02/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (535, '2025/02/24', TO_DATE('2025/02/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (536, '2025/02/25', TO_DATE('2025/02/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (537, '2025/02/26', TO_DATE('2025/02/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (538, '2025/02/27', TO_DATE('2025/02/27 09:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (539, '2025/02/28', TO_DATE('2025/02/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (540, '2025/03/01', TO_DATE('2025/03/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (541, '2025/03/02', TO_DATE('2025/03/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (542, '2025/03/03', TO_DATE('2025/03/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (543, '2025/03/04', TO_DATE('2025/03/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (544, '2025/03/05', TO_DATE('2025/03/05 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (545, '2025/03/06', TO_DATE('2025/03/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (546, '2025/03/07', TO_DATE('2025/03/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (547, '2025/03/08', TO_DATE('2025/03/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (548, '2025/03/09', TO_DATE('2025/03/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (549, '2025/03/10', TO_DATE('2025/03/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (550, '2025/03/11', TO_DATE('2025/03/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (551, '2025/03/12', TO_DATE('2025/03/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/12 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (552, '2025/03/13', TO_DATE('2025/03/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (553, '2025/03/14', TO_DATE('2025/03/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (554, '2025/03/15', TO_DATE('2025/03/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (555, '2025/03/16', TO_DATE('2025/03/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (556, '2025/03/17', TO_DATE('2025/03/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (557, '2025/03/18', TO_DATE('2025/03/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/18 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (558, '2025/03/19', TO_DATE('2025/03/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (559, '2025/03/20', TO_DATE('2025/03/20 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (560, '2025/03/21', TO_DATE('2025/03/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (561, '2025/03/22', TO_DATE('2025/03/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (562, '2025/03/23', TO_DATE('2025/03/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (563, '2025/03/24', TO_DATE('2025/03/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (564, '2025/03/25', TO_DATE('2025/03/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (565, '2025/03/26', TO_DATE('2025/03/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (566, '2025/03/27', TO_DATE('2025/03/27 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (567, '2025/03/28', TO_DATE('2025/03/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (568, '2025/03/29', TO_DATE('2025/03/29 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (569, '2025/03/30', TO_DATE('2025/03/30 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (570, '2025/03/31', TO_DATE('2025/03/31 09:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/31 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (571, '2025/04/01', TO_DATE('2025/04/01 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (572, '2025/04/02', TO_DATE('2025/04/02 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (573, '2025/04/03', TO_DATE('2025/04/03 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (574, '2025/04/04', TO_DATE('2025/04/04 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (575, '2025/04/05', TO_DATE('2025/04/05 09:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/05 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (576, '2025/04/06', TO_DATE('2025/04/06 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (577, '2025/04/07', TO_DATE('2025/04/07 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (578, '2025/04/08', TO_DATE('2025/04/08 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (579, '2025/04/09', TO_DATE('2025/04/09 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (580, '2025/04/10', TO_DATE('2025/04/10 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (581, '2025/04/11', TO_DATE('2025/04/11 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (582, '2025/04/12', TO_DATE('2025/04/12 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/12 14:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (583, '2025/04/13', TO_DATE('2025/04/13 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (584, '2025/04/14', TO_DATE('2025/04/14 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (585, '2025/04/15', TO_DATE('2025/04/15 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (586, '2025/04/16', TO_DATE('2025/04/16 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (587, '2025/04/17', TO_DATE('2025/04/17 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (588, '2025/04/18', TO_DATE('2025/04/18 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (589, '2025/04/19', TO_DATE('2025/04/19 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (590, '2025/04/20', TO_DATE('2025/04/20 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (591, '2025/04/21', TO_DATE('2025/04/21 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (592, '2025/04/22', TO_DATE('2025/04/22 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (593, '2025/04/23', TO_DATE('2025/04/23 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (594, '2025/04/24', TO_DATE('2025/04/24 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (595, '2025/04/25', TO_DATE('2025/04/25 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (596, '2025/04/26', TO_DATE('2025/04/26 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (597, '2025/04/27', TO_DATE('2025/04/27 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (598, '2025/04/28', TO_DATE('2025/04/28 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/28 14:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (599, '2025/04/29', TO_DATE('2025/04/29 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (600, '2025/04/30', TO_DATE('2025/04/30 09:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 5);
+
+-- 6번강사
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (512, '2025/01/01', TO_DATE('2025/01/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (513, '2025/01/02', TO_DATE('2025/01/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (514, '2025/01/03', TO_DATE('2025/01/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (515, '2025/01/04', TO_DATE('2025/01/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (516, '2025/01/05', TO_DATE('2025/01/05 15:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (517, '2025/01/06', TO_DATE('2025/01/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (518, '2025/01/07', TO_DATE('2025/01/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (519, '2025/01/08', TO_DATE('2025/01/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (520, '2025/01/09', TO_DATE('2025/01/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (521, '2025/01/10', TO_DATE('2025/01/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/10 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (522, '2025/01/11', TO_DATE('2025/01/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (523, '2025/01/12', TO_DATE('2025/01/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/12 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (524, '2025/01/13', TO_DATE('2025/01/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (525, '2025/01/14', TO_DATE('2025/01/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (526, '2025/01/15', TO_DATE('2025/01/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (527, '2025/01/16', TO_DATE('2025/01/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (528, '2025/01/17', TO_DATE('2025/01/17 15:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (529, '2025/01/18', TO_DATE('2025/01/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (530, '2025/01/19', TO_DATE('2025/01/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (531, '2025/01/20', TO_DATE('2025/01/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (532, '2025/01/21', TO_DATE('2025/01/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (533, '2025/01/22', TO_DATE('2025/01/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/22 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (534, '2025/01/23', TO_DATE('2025/01/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/23 20:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (535, '2025/01/24', TO_DATE('2025/01/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/24 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (536, '2025/01/25', TO_DATE('2025/01/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/25 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (537, '2025/01/26', TO_DATE('2025/01/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (538, '2025/01/27', TO_DATE('2025/01/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (539, '2025/01/28', TO_DATE('2025/01/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (540, '2025/01/29', TO_DATE('2025/01/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/29 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (541, '2025/01/30', TO_DATE('2025/01/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/30 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (542, '2025/01/31', TO_DATE('2025/01/31 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/31 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (543, '2025/02/01', TO_DATE('2025/02/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (544, '2025/02/02', TO_DATE('2025/02/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (545, '2025/02/03', TO_DATE('2025/02/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (546, '2025/02/04', TO_DATE('2025/02/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (547, '2025/02/05', TO_DATE('2025/02/05 15:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (548, '2025/02/06', TO_DATE('2025/02/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (549, '2025/02/07', TO_DATE('2025/02/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (550, '2025/02/08', TO_DATE('2025/02/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (551, '2025/02/09', TO_DATE('2025/02/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (552, '2025/02/10', TO_DATE('2025/02/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/10 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (553, '2025/02/11', TO_DATE('2025/02/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (554, '2025/02/12', TO_DATE('2025/02/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/12 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (555, '2025/02/13', TO_DATE('2025/02/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (556, '2025/02/14', TO_DATE('2025/02/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (557, '2025/02/15', TO_DATE('2025/02/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (558, '2025/02/16', TO_DATE('2025/02/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (559, '2025/02/17', TO_DATE('2025/02/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (560, '2025/02/18', TO_DATE('2025/02/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (561, '2025/02/19', TO_DATE('2025/02/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (562, '2025/02/20', TO_DATE('2025/02/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (563, '2025/02/21', TO_DATE('2025/02/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (564, '2025/02/22', TO_DATE('2025/02/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/22 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (565, '2025/02/23', TO_DATE('2025/02/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/23 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (566, '2025/02/24', TO_DATE('2025/02/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/24 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (567, '2025/02/25', TO_DATE('2025/02/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/25 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (568, '2025/02/26', TO_DATE('2025/02/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (569, '2025/02/27', TO_DATE('2025/02/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (570, '2025/02/28', TO_DATE('2025/02/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (571, '2025/03/01', TO_DATE('2025/03/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (572, '2025/03/02', TO_DATE('2025/03/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (573, '2025/03/03', TO_DATE('2025/03/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (574, '2025/03/04', TO_DATE('2025/03/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (575, '2025/03/05', TO_DATE('2025/03/05 15:08:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (576, '2025/03/06', TO_DATE('2025/03/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (577, '2025/03/07', TO_DATE('2025/03/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (578, '2025/03/08', TO_DATE('2025/03/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (579, '2025/03/09', TO_DATE('2025/03/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (580, '2025/03/10', TO_DATE('2025/03/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/10 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (581, '2025/03/11', TO_DATE('2025/03/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (582, '2025/03/12', TO_DATE('2025/03/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/12 20:55:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (583, '2025/03/13', TO_DATE('2025/03/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (584, '2025/03/14', TO_DATE('2025/03/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (585, '2025/03/15', TO_DATE('2025/03/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (586, '2025/03/16', TO_DATE('2025/03/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (587, '2025/03/17', TO_DATE('2025/03/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (588, '2025/03/18', TO_DATE('2025/03/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (589, '2025/03/19', TO_DATE('2025/03/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (590, '2025/03/20', TO_DATE('2025/03/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (591, '2025/03/21', TO_DATE('2025/03/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (592, '2025/03/22', TO_DATE('2025/03/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/22 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (593, '2025/03/23', TO_DATE('2025/03/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/23 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (594, '2025/03/24', TO_DATE('2025/03/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/24 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (595, '2025/03/25', TO_DATE('2025/03/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/25 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (596, '2025/03/26', TO_DATE('2025/03/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (597, '2025/03/27', TO_DATE('2025/03/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (598, '2025/03/28', TO_DATE('2025/03/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (599, '2025/03/29', TO_DATE('2025/03/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/29 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (600, '2025/03/30', TO_DATE('2025/03/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/30 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (601, '2025/03/31', TO_DATE('2025/03/31 15:07:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/31 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (602, '2025/04/01', TO_DATE('2025/04/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (603, '2025/04/02', TO_DATE('2025/04/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (604, '2025/04/03', TO_DATE('2025/04/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (605, '2025/04/04', TO_DATE('2025/04/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (606, '2025/04/05', TO_DATE('2025/04/05 15:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (607, '2025/04/06', TO_DATE('2025/04/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (608, '2025/04/07', TO_DATE('2025/04/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (609, '2025/04/08', TO_DATE('2025/04/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (610, '2025/04/09', TO_DATE('2025/04/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (611, '2025/04/10', TO_DATE('2025/04/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/10 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (612, '2025/04/11', TO_DATE('2025/04/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (613, '2025/04/12', TO_DATE('2025/04/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/12 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (614, '2025/04/13', TO_DATE('2025/04/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (615, '2025/04/14', TO_DATE('2025/04/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (616, '2025/04/15', TO_DATE('2025/04/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (617, '2025/04/16', TO_DATE('2025/04/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (618, '2025/04/17', TO_DATE('2025/04/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (619, '2025/04/18', TO_DATE('2025/04/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (620, '2025/04/19', TO_DATE('2025/04/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (621, '2025/04/20', TO_DATE('2025/04/20 15:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (622, '2025/04/21', TO_DATE('2025/04/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (623, '2025/04/22', TO_DATE('2025/04/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/22 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (624, '2025/04/23', TO_DATE('2025/04/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/23 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (625, '2025/04/24', TO_DATE('2025/04/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/24 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (626, '2025/04/25', TO_DATE('2025/04/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/25 20:55:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (627, '2025/04/26', TO_DATE('2025/04/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (628, '2025/04/27', TO_DATE('2025/04/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (629, '2025/04/28', TO_DATE('2025/04/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (630, '2025/04/29', TO_DATE('2025/04/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/29 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (631, '2025/04/30', TO_DATE('2025/04/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/30 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 6);
+
+--7번강사
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (543, '2025/01/01', TO_DATE('2025/01/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (544, '2025/01/02', TO_DATE('2025/01/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (545, '2025/01/03', TO_DATE('2025/01/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (546, '2025/01/04', TO_DATE('2025/01/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (547, '2025/01/05', TO_DATE('2025/01/05 15:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (548, '2025/01/06', TO_DATE('2025/01/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (549, '2025/01/07', TO_DATE('2025/01/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (550, '2025/01/08', TO_DATE('2025/01/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (551, '2025/01/09', TO_DATE('2025/01/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (552, '2025/01/10', TO_DATE('2025/01/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/10 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (553, '2025/01/11', TO_DATE('2025/01/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (554, '2025/01/12', TO_DATE('2025/01/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/12 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (555, '2025/01/13', TO_DATE('2025/01/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (556, '2025/01/14', TO_DATE('2025/01/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (557, '2025/01/15', TO_DATE('2025/01/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (558, '2025/01/16', TO_DATE('2025/01/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (559, '2025/01/17', TO_DATE('2025/01/17 15:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (560, '2025/01/18', TO_DATE('2025/01/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (561, '2025/01/19', TO_DATE('2025/01/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (562, '2025/01/20', TO_DATE('2025/01/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (563, '2025/01/21', TO_DATE('2025/01/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (564, '2025/01/22', TO_DATE('2025/01/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/22 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (565, '2025/01/23', TO_DATE('2025/01/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/23 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (566, '2025/01/24', TO_DATE('2025/01/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/24 20:45:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (567, '2025/01/25', TO_DATE('2025/01/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/25 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (568, '2025/01/26', TO_DATE('2025/01/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (569, '2025/01/27', TO_DATE('2025/01/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (570, '2025/01/28', TO_DATE('2025/01/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (571, '2025/01/29', TO_DATE('2025/01/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/29 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (572, '2025/01/30', TO_DATE('2025/01/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/30 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (573, '2025/01/31', TO_DATE('2025/01/31 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/01/31 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (574, '2025/02/01', TO_DATE('2025/02/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (575, '2025/02/02', TO_DATE('2025/02/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (576, '2025/02/03', TO_DATE('2025/02/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (577, '2025/02/04', TO_DATE('2025/02/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (578, '2025/02/05', TO_DATE('2025/02/05 15:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (579, '2025/02/06', TO_DATE('2025/02/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (580, '2025/02/07', TO_DATE('2025/02/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (581, '2025/02/08', TO_DATE('2025/02/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (582, '2025/02/09', TO_DATE('2025/02/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (583, '2025/02/10', TO_DATE('2025/02/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/10 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (584, '2025/02/11', TO_DATE('2025/02/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (585, '2025/02/12', TO_DATE('2025/02/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/12 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (586, '2025/02/13', TO_DATE('2025/02/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (587, '2025/02/14', TO_DATE('2025/02/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (588, '2025/02/15', TO_DATE('2025/02/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (589, '2025/02/16', TO_DATE('2025/02/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (590, '2025/02/17', TO_DATE('2025/02/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (591, '2025/02/18', TO_DATE('2025/02/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (592, '2025/02/19', TO_DATE('2025/02/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (593, '2025/02/20', TO_DATE('2025/02/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (594, '2025/02/21', TO_DATE('2025/02/21 15:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (595, '2025/02/22', TO_DATE('2025/02/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/22 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (596, '2025/02/23', TO_DATE('2025/02/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/23 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (597, '2025/02/24', TO_DATE('2025/02/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/24 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (598, '2025/02/25', TO_DATE('2025/02/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/25 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (599, '2025/02/26', TO_DATE('2025/02/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (600, '2025/02/27', TO_DATE('2025/02/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (601, '2025/02/28', TO_DATE('2025/02/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/02/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (602, '2025/03/01', TO_DATE('2025/03/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (603, '2025/03/02', TO_DATE('2025/03/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (604, '2025/03/03', TO_DATE('2025/03/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (605, '2025/03/04', TO_DATE('2025/03/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (606, '2025/03/05', TO_DATE('2025/03/05 15:08:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (607, '2025/03/06', TO_DATE('2025/03/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (608, '2025/03/07', TO_DATE('2025/03/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (609, '2025/03/08', TO_DATE('2025/03/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (610, '2025/03/09', TO_DATE('2025/03/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (611, '2025/03/10', TO_DATE('2025/03/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/10 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (612, '2025/03/11', TO_DATE('2025/03/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (613, '2025/03/12', TO_DATE('2025/03/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/12 20:55:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (614, '2025/03/13', TO_DATE('2025/03/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (615, '2025/03/14', TO_DATE('2025/03/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (616, '2025/03/15', TO_DATE('2025/03/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (617, '2025/03/16', TO_DATE('2025/03/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (618, '2025/03/17', TO_DATE('2025/03/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (619, '2025/03/18', TO_DATE('2025/03/18 15:05:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (620, '2025/03/19', TO_DATE('2025/03/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (621, '2025/03/20', TO_DATE('2025/03/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (622, '2025/03/21', TO_DATE('2025/03/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (623, '2025/03/22', TO_DATE('2025/03/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/22 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (624, '2025/03/23', TO_DATE('2025/03/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/23 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (625, '2025/03/24', TO_DATE('2025/03/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/24 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (626, '2025/03/25', TO_DATE('2025/03/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/25 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (627, '2025/03/26', TO_DATE('2025/03/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (628, '2025/03/27', TO_DATE('2025/03/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (629, '2025/03/28', TO_DATE('2025/03/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (630, '2025/03/29', TO_DATE('2025/03/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/29 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (631, '2025/03/30', TO_DATE('2025/03/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/30 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (632, '2025/03/31', TO_DATE('2025/03/31 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/03/31 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (633, '2025/04/01', TO_DATE('2025/04/01 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/01 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (634, '2025/04/02', TO_DATE('2025/04/02 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/02 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (635, '2025/04/03', TO_DATE('2025/04/03 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/03 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (636, '2025/04/04', TO_DATE('2025/04/04 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/04 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (637, '2025/04/05', TO_DATE('2025/04/05 15:10:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/05 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (638, '2025/04/06', TO_DATE('2025/04/06 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/06 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (639, '2025/04/07', TO_DATE('2025/04/07 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/07 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (640, '2025/04/08', TO_DATE('2025/04/08 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/08 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (641, '2025/04/09', TO_DATE('2025/04/09 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/09 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (642, '2025/04/10', TO_DATE('2025/04/10 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/10 20:50:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (643, '2025/04/11', TO_DATE('2025/04/11 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/11 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (644, '2025/04/12', TO_DATE('2025/04/12 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/12 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (645, '2025/04/13', TO_DATE('2025/04/13 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/13 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (646, '2025/04/14', TO_DATE('2025/04/14 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/14 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (647, '2025/04/15', TO_DATE('2025/04/15 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/15 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (648, '2025/04/16', TO_DATE('2025/04/16 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/16 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (649, '2025/04/17', TO_DATE('2025/04/17 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/17 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (650, '2025/04/18', TO_DATE('2025/04/18 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/18 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (651, '2025/04/19', TO_DATE('2025/04/19 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/19 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (652, '2025/04/20', TO_DATE('2025/04/20 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/20 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (653, '2025/04/21', TO_DATE('2025/04/21 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/21 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (654, '2025/04/22', TO_DATE('2025/04/22 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/22 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (655, '2025/04/23', TO_DATE('2025/04/23 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/23 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (656, '2025/04/24', TO_DATE('2025/04/24 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/24 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (657, '2025/04/25', TO_DATE('2025/04/25 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/25 20:55:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (658, '2025/04/26', TO_DATE('2025/04/26 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/26 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (659, '2025/04/27', TO_DATE('2025/04/27 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/27 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (660, '2025/04/28', TO_DATE('2025/04/28 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/28 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (661, '2025/04/29', TO_DATE('2025/04/29 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/29 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+INSERT INTO tCommute(commute_id, day_date, go_to_work, leave_work, situation, instroctor_id)
+VALUES (662, '2025/04/30', TO_DATE('2025/04/30 15:00:00','YYYY/MM/DD HH24:MI:SS'), TO_DATE('2025/04/30 21:00:00','YYYY/MM/DD HH24:MI:SS'), '미정', 7);
+
+--8번강사
 
 select * from tCommute;
 delete from tCommute;
