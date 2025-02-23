@@ -23,24 +23,23 @@ select * from tSituationType;
 
 
 -- 3. 강사
-INSERT INTO tInstroctor VALUES (1, '김성훈', TO_DATE('1985-03-15', 'YYYY-MM-DD'), '남성', '010-1234-5678', 'seonghoon85@example.com', '서울시 강남구 삼성동', 4);
-INSERT INTO tInstroctor VALUES (2, '이주영', TO_DATE('1990-07-23', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'jooyoung90@example.com', '서울시 마포구 합정동', 4);
-INSERT INTO tInstroctor VALUES (3, '박지훈', TO_DATE('1988-11-12', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'jihoon88@example.com', '서울시 송파구 방이동', 4);
-INSERT INTO tInstroctor VALUES (4, '정하나', TO_DATE('1993-06-25', 'YYYY-MM-DD'), '여성', '010-4567-8901', 'hana93@example.com', '서울시 용산구 한남동', 4);
-INSERT INTO tInstroctor VALUES (5, '최광수', TO_DATE('1986-09-14', 'YYYY-MM-DD'), '남성', '010-5678-9012', 'kwangsoo86@example.com', '서울시 동작구 상도동', 4);
-INSERT INTO tInstroctor VALUES (6, '김민수', TO_DATE('1990-05-21', 'YYYY-MM-DD'), '남성', '010-1234-5678', 'minsu90@example.com', '서울시 서대문구 홍은동', 4);
-INSERT INTO tInstroctor VALUES (7, '이서연', TO_DATE('1992-08-15', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'seoyeon92@example.com', '서울시 강북구 미아동', 4);
-INSERT INTO tInstroctor VALUES (8, '정우진', TO_DATE('1985-03-10', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'woojin85@example.com', '서울시 관악구 봉천동', 4);
-INSERT INTO tInstroctor VALUES (9, '박수현', TO_DATE('1993-12-30', 'YYYY-MM-DD'), '여성', '010-4567-8901', 'soohyun93@example.com', '서울시 금천구 독산동', 4);
-INSERT INTO tInstroctor VALUES (10, '최영호', TO_DATE('1987-07-07', 'YYYY-MM-DD'), '남성', '010-5678-9012', 'youngho87@example.com', '서울시 구로구 개봉동', 4);
-INSERT INTO tInstroctor VALUES (11, '한지훈', TO_DATE('1991-06-25', 'YYYY-MM-DD'), '남성', '010-6789-0123', 'jihoon91@example.com', '서울시 종로구 삼청동', 5);
-INSERT INTO tInstroctor VALUES (12, '서민경', TO_DATE('1994-09-18', 'YYYY-MM-DD'), '여성', '010-7890-1234', 'mingyeong94@example.com', '서울시 서초구 방배동', 5);
-INSERT INTO tInstroctor VALUES (13, '오상혁', TO_DATE('1986-04-05', 'YYYY-MM-DD'), '남성', '010-8901-2345', 'sanghyuk86@example.com', '서울시 노원구 공릉동', 5);
-INSERT INTO tInstroctor VALUES (14, '강예진', TO_DATE('1995-11-22', 'YYYY-MM-DD'), '여성', '010-9012-3456', 'yejin95@example.com', '서울시 성동구 성수동', 6);
-INSERT INTO tInstroctor VALUES (15, '배준호', TO_DATE('1989-02-14', 'YYYY-MM-DD'), '남성', '010-0123-4567', 'junho89@example.com', '서울시 강서구 등촌동', 7);
+INSERT INTO tInstroctor VALUES (1, '김성훈', TO_DATE('1985-03-15', 'YYYY-MM-DD'), '남성', '010-1234-5678', 'seonghoon85@example.com', '서울시 강남구 삼성동', 5);
+INSERT INTO tInstroctor VALUES (2, '이주영', TO_DATE('1990-07-23', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'jooyoung90@example.com', '서울시 마포구 합정동', 5);
+INSERT INTO tInstroctor VALUES (3, '박지훈', TO_DATE('1988-11-12', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'jihoon88@example.com', '서울시 송파구 방이동', 5);
+INSERT INTO tInstroctor VALUES (4, '정하나', TO_DATE('1993-06-25', 'YYYY-MM-DD'), '여성', '010-4567-8901', 'hana93@example.com', '서울시 용산구 한남동', 5);
+INSERT INTO tInstroctor VALUES (5, '최광수', TO_DATE('1986-09-14', 'YYYY-MM-DD'), '남성', '010-5678-9012', 'kwangsoo86@example.com', '서울시 동작구 상도동', 5);
+INSERT INTO tInstroctor VALUES (6, '김민수', TO_DATE('1990-05-21', 'YYYY-MM-DD'), '남성', '010-1234-5678', 'minsu90@example.com', '서울시 서대문구 홍은동', 5);
+INSERT INTO tInstroctor VALUES (7, '이서연', TO_DATE('1992-08-15', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'seoyeon92@example.com', '서울시 강북구 미아동', 5);
+INSERT INTO tInstroctor VALUES (8, '정우진', TO_DATE('1985-03-10', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'woojin85@example.com', '서울시 관악구 봉천동', 5);
+INSERT INTO tInstroctor VALUES (9, '박수현', TO_DATE('1993-12-30', 'YYYY-MM-DD'), '여성', '010-4567-8901', 'soohyun93@example.com', '서울시 금천구 독산동', 5);
+INSERT INTO tInstroctor VALUES (10, '최영호', TO_DATE('1987-07-07', 'YYYY-MM-DD'), '남성', '010-5678-9012', 'youngho87@example.com', '서울시 구로구 개봉동', 5);
+INSERT INTO tInstroctor VALUES (11, '한지훈', TO_DATE('1991-06-25', 'YYYY-MM-DD'), '남성', '010-6789-0123', 'jihoon91@example.com', '서울시 종로구 삼청동', 6);
+INSERT INTO tInstroctor VALUES (12, '서민경', TO_DATE('1994-09-18', 'YYYY-MM-DD'), '여성', '010-7890-1234', 'mingyeong94@example.com', '서울시 서초구 방배동', 6);
+INSERT INTO tInstroctor VALUES (13, '오상혁', TO_DATE('1986-04-05', 'YYYY-MM-DD'), '남성', '010-8901-2345', 'sanghyuk86@example.com', '서울시 노원구 공릉동', 6);
+INSERT INTO tInstroctor VALUES (14, '강예진', TO_DATE('1995-11-22', 'YYYY-MM-DD'), '여성', '010-9012-3456', 'yejin95@example.com', '서울시 성동구 성수동', 7);
+INSERT INTO tInstroctor VALUES (15, '배준호', TO_DATE('1989-02-14', 'YYYY-MM-DD'), '남성', '010-0123-4567', 'junho89@example.com', '서울시 강서구 등촌동', 8);
 
 select * from tInstroctor;
-
 
 
 
@@ -229,9 +228,7 @@ INSERT INTO tOpenProgram (open_program_id, start_date, end_date, total_count, pr
 VALUES (19, TO_DATE('2025-01-14', 'YYYY-MM-DD'), TO_DATE('2025-07-13', 'YYYY-MM-DD'), 60, 9, 6, null);
 
 
-  
 select * from tOpenProgram;
-delete from tOpenProgram;
 
 
 
@@ -435,24 +432,20 @@ INSERT INTO tProgramRegistration (program_registration, payment_day, open_progra
 VALUES (66, TO_DATE('2025-01-26', 'YYYY-MM-DD'), 13, 5, 1, 1);
 
 select * from tProgramRegistration;
-delete from tProgramRegistration;
 
 
 
 
 -- 12.강습요일
--- 월, 수요일에 해당하는 프로그램 (프로그램 PK: 1, 2)
 INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (1, 1, 1);
 INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (2, 3, 1);
 INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (3, 1, 2);
 INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (4, 3, 2);
-
--- 화, 목요일에 해당하는 프로그램 (프로그램 PK: 3)
 INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (5, 2, 3);
 INSERT INTO tDayType (lesson_day_id, day_id, open_program_id) VALUES (6, 4, 3);
 
 select * from tDayType;
-delete from tDayType;
+
 
 
 
@@ -559,10 +552,8 @@ INSERT INTO tLocker (locker_id, title, period, price) VALUES (78, '여자38', 36
 INSERT INTO tLocker (locker_id, title, period, price) VALUES (79, '여자39', 365, 260000);
 INSERT INTO tLocker (locker_id, title, period, price) VALUES (80, '여자40', 365, 260000);
 
-
-
 select * from tLocker;
-delete from tLocker;
+
 
 
 -- 14. 락커등록
@@ -671,4 +662,3 @@ VALUES (50, TO_DATE('2025-01-01', 'YYYY-MM-DD'), TO_DATE('2025-01-31', 'YYYY-MM-
 
 
 select * from tLokerReistration;
-delete from tLokerReistration;

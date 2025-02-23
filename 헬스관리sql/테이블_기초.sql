@@ -10,7 +10,6 @@ show user;
 
 
 -- 이름pk, 이름, 성별, 프로그램 이름, 시작일, 종료일 view
-
 select m.member_id, m.name,m.gender, p.title, op.start_date, op.end_date
 from tProgramRegistration tpr
     inner join tmember m on m.member_id = tpr.member_id
@@ -19,7 +18,8 @@ from tProgramRegistration tpr
 --WHERE op.end_date >'2025-02-22'
     --order by m.member_id;
         
-select * from tProgramRegistration;
+
+
 
 -- 이름pk, 이름, 성별, 프로그램 이름,횟수, 시작일, 종료일 view      
 select 
