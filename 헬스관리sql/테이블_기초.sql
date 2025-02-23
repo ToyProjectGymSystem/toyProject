@@ -45,25 +45,58 @@ from tDayType dt
 
 
 
+
+
 --tCommute 상태 변경 PL/SQL
+
+DECLARE
+    -- 커서 선언
+    CURSOR commute_cursor IS
+        SELECT c.commute_id, c.go_to_work, c.leave_work, 
+               i.work_start_time, i.work_end_time
+        FROM tCommute c
+        JOIN tInstroctor i ON c.instroctor_id = i.instroctor_id;
+    
+    -- 변수 선언
+    v_situation VARCHAR2(20);
+    v_work_start VARCHAR2(8);
+    v_work_end VARCHAR2(8);
+    v_actual_start VARCHAR2(8);
+    v_actual_end VARCHAR2(8);
 BEGIN
-  UPDATE tCommute
-  SET situation = CASE
-    -- 출근 시간이 9:00 이전 또는 9:00이고, 퇴근 시간이 15:00 이후 또는 15:00이면 정상근무
-    WHEN go_to_work <= TRUNC(go_to_work) + 9/24 
-         AND leave_work >= TRUNC(leave_work) + 15/24 THEN '정상근무'
-    -- 출근 시간이 9:00보다 늦으면 지각
-    WHEN go_to_work > TRUNC(go_to_work) + 9/24 THEN '지각'
-    -- 퇴근 시간이 15:00보다 빠르면 조퇴
-    WHEN leave_work < TRUNC(leave_work) + 15/24 THEN '조퇴'
-    ELSE situation
-  END
-  WHERE situation = '미정';
-  
-  COMMIT;
+    -- 커서를 통해 출퇴근 기록을 순회
+    FOR commute_rec IN commute_cursor LOOP
+        -- 해당 날짜의 시간만 추출
+        v_work_start := TO_CHAR(commute_rec.work_start_time, 'HH24:MI:SS');
+        v_work_end := TO_CHAR(commute_rec.work_end_time, 'HH24:MI:SS');
+        v_actual_start := TO_CHAR(commute_rec.go_to_work, 'HH24:MI:SS');
+        v_actual_end := TO_CHAR(commute_rec.leave_work, 'HH24:MI:SS');
+        
+        -- 출근 상황 판단
+        IF v_actual_start > v_work_start THEN
+            v_situation := '지각';
+        ELSIF v_actual_end < v_work_end THEN
+            v_situation := '조기퇴근';
+        ELSE
+            v_situation := '정상출근';
+        END IF;
+        
+        -- 상황 업데이트
+        UPDATE tCommute
+        SET situation = v_situation
+        WHERE commute_id = commute_rec.commute_id;
+    END LOOP;
+    
+    -- 변경사항 저장
+    COMMIT;
+    
+EXCEPTION
+    WHEN OTHERS THEN
+        -- 오류 발생 시 롤백
+        ROLLBACK;
+        RAISE;
 END;
 /
-
 
 
 select * from tCommute;
