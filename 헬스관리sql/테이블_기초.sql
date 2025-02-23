@@ -43,3 +43,29 @@ from tDayType dt
     inner join tProgram p on p.program_id = op.program_id
     inner join tTime t on t.time_id = op.time_id;
 
+
+
+--tCommute 상태 변경 PL/SQL
+BEGIN
+  UPDATE tCommute
+  SET situation = CASE
+    -- 출근이 9:00이고 퇴근이 15:00이면 정상근무
+    WHEN go_to_work = TRUNC(go_to_work) + 9/24 
+         AND leave_work = TRUNC(leave_work) + 15/24 THEN '정상근무'
+    -- 출근 시간이 9:00보다 늦으면 지각
+    WHEN go_to_work > TRUNC(go_to_work) + 9/24 THEN '지각'
+    -- 퇴근 시간이 15:00보다 빠르면 조퇴
+    WHEN leave_work < TRUNC(leave_work) + 15/24 THEN '조퇴'
+    ELSE situation
+  END
+  WHERE situation = '미정';
+  
+  COMMIT;
+END;
+/
+
+
+select * from tCommute;
+
+
+
