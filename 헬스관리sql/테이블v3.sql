@@ -32,6 +32,8 @@ create table tInstroctor (
     gender varchar2(10) not null,       -- 성별
     tell varchar2(30) not null,         -- 전화번호
     mail varchar2(50) not null,         -- 이메일
+    work_start_time date,  -- 근무시작시간
+    work_end_time date,     -- 근무종료시간
     address varchar2(200) not null,     -- 주소
     
     situation_type_id number,           -- 상태(FK)
@@ -58,7 +60,7 @@ select * from tMember;
 
 
 
--- 강습시간
+-- 시간
 create table tTime (
     time_id number primary key, -- PK
     start_time varchar2(50) not null      -- 시작시간 
@@ -210,5 +212,5 @@ create table tCommute (
     instroctor_id number,   -- 강사(FK)
     constraint fk_tCommute_tInstroctor foreign key (instroctor_id) references tInstroctor(instroctor_id)
 );
-select * from tCommute;
+
 

@@ -23,21 +23,21 @@ select * from tSituationType;
 
 
 -- 3. 강사
-INSERT INTO tInstroctor VALUES (1, '김성훈', TO_DATE('1985-03-15', 'YYYY-MM-DD'), '남성', '010-1234-5678', 'seonghoon85@example.com', '서울시 강남구 삼성동', 5);
-INSERT INTO tInstroctor VALUES (2, '이주영', TO_DATE('1990-07-23', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'jooyoung90@example.com', '서울시 마포구 합정동', 5);
-INSERT INTO tInstroctor VALUES (3, '박지훈', TO_DATE('1988-11-12', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'jihoon88@example.com', '서울시 송파구 방이동', 5);
-INSERT INTO tInstroctor VALUES (4, '정하나', TO_DATE('1993-06-25', 'YYYY-MM-DD'), '여성', '010-4567-8901', 'hana93@example.com', '서울시 용산구 한남동', 5);
-INSERT INTO tInstroctor VALUES (5, '최광수', TO_DATE('1986-09-14', 'YYYY-MM-DD'), '남성', '010-5678-9012', 'kwangsoo86@example.com', '서울시 동작구 상도동', 5);
-INSERT INTO tInstroctor VALUES (6, '김민수', TO_DATE('1990-05-21', 'YYYY-MM-DD'), '남성', '010-1234-5678', 'minsu90@example.com', '서울시 서대문구 홍은동', 5);
-INSERT INTO tInstroctor VALUES (7, '이서연', TO_DATE('1992-08-15', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'seoyeon92@example.com', '서울시 강북구 미아동', 5);
-INSERT INTO tInstroctor VALUES (8, '정우진', TO_DATE('1985-03-10', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'woojin85@example.com', '서울시 관악구 봉천동', 5);
-INSERT INTO tInstroctor VALUES (9, '박수현', TO_DATE('1993-12-30', 'YYYY-MM-DD'), '여성', '010-4567-8901', 'soohyun93@example.com', '서울시 금천구 독산동', 5);
-INSERT INTO tInstroctor VALUES (10, '최영호', TO_DATE('1987-07-07', 'YYYY-MM-DD'), '남성', '010-5678-9012', 'youngho87@example.com', '서울시 구로구 개봉동', 5);
-INSERT INTO tInstroctor VALUES (11, '한지훈', TO_DATE('1991-06-25', 'YYYY-MM-DD'), '남성', '010-6789-0123', 'jihoon91@example.com', '서울시 종로구 삼청동', 6);
-INSERT INTO tInstroctor VALUES (12, '서민경', TO_DATE('1994-09-18', 'YYYY-MM-DD'), '여성', '010-7890-1234', 'mingyeong94@example.com', '서울시 서초구 방배동', 6);
-INSERT INTO tInstroctor VALUES (13, '오상혁', TO_DATE('1986-04-05', 'YYYY-MM-DD'), '남성', '010-8901-2345', 'sanghyuk86@example.com', '서울시 노원구 공릉동', 6);
-INSERT INTO tInstroctor VALUES (14, '강예진', TO_DATE('1995-11-22', 'YYYY-MM-DD'), '여성', '010-9012-3456', 'yejin95@example.com', '서울시 성동구 성수동', 7);
-INSERT INTO tInstroctor VALUES (15, '배준호', TO_DATE('1989-02-14', 'YYYY-MM-DD'), '남성', '010-0123-4567', 'junho89@example.com', '서울시 강서구 등촌동', 8);
+INSERT INTO tInstroctor VALUES (1, '김성훈', TO_DATE('1985-03-15', 'YYYY-MM-DD'), '남성', '010-1234-5678','seonghoon85@example.com', TO_DATE('2025-01-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 강남구 삼성동', 5);
+INSERT INTO tInstroctor VALUES (2, '이주영', TO_DATE('1990-07-23', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'jooyoung90@example.com', TO_DATE('2025-01-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 마포구 합정동', 5);
+INSERT INTO tInstroctor VALUES (3, '박지훈', TO_DATE('1988-11-12', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'jihoon88@example.com', TO_DATE('2025-01-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 송파구 방이동', 5);
+INSERT INTO tInstroctor VALUES (4, '정하나', TO_DATE('1993-06-25', 'YYYY-MM-DD'), '여성', '010-4567-8901','hana93@example.com', TO_DATE('2025-01-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'),   '서울시 용산구 한남동', 5);
+INSERT INTO tInstroctor VALUES (5, '최광수', TO_DATE('1986-09-14', 'YYYY-MM-DD'), '남성', '010-5678-9012','kwangsoo86@example.com', TO_DATE('2025-01-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'),   '서울시 동작구 상도동', 5);
+INSERT INTO tInstroctor VALUES (6, '김민수', TO_DATE('1990-05-21', 'YYYY-MM-DD'), '남성', '010-1234-5678', 'minsu90@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 서대문구 홍은동', 5);
+INSERT INTO tInstroctor VALUES (7, '이서연', TO_DATE('1992-08-15', 'YYYY-MM-DD'), '여성', '010-2345-6789', 'seoyeon92@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 강북구 미아동', 5);
+INSERT INTO tInstroctor VALUES (8, '정우진', TO_DATE('1985-03-10', 'YYYY-MM-DD'), '남성', '010-3456-7890', 'woojin85@example.com', TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'), '서울시 관악구 봉천동', 5);
+INSERT INTO tInstroctor VALUES (9, '박수현', TO_DATE('1993-12-30', 'YYYY-MM-DD'), '여성', '010-4567-8901','soohyun93@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),   '서울시 금천구 독산동', 5);
+INSERT INTO tInstroctor VALUES (10, '최영호', TO_DATE('1987-07-07', 'YYYY-MM-DD'), '남성', '010-5678-9012', 'youngho87@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 구로구 개봉동', 5);
+INSERT INTO tInstroctor VALUES (11, '한지훈', TO_DATE('1991-06-25', 'YYYY-MM-DD'), '남성', '010-6789-0123', 'jihoon91@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 종로구 삼청동', 6);
+INSERT INTO tInstroctor VALUES (12, '서민경', TO_DATE('1994-09-18', 'YYYY-MM-DD'), '여성', '010-7890-1234', 'mingyeong94@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 서초구 방배동', 6);
+INSERT INTO tInstroctor VALUES (13, '오상혁', TO_DATE('1986-04-05', 'YYYY-MM-DD'), '남성', '010-8901-2345', 'sanghyuk86@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 노원구 공릉동', 6);
+INSERT INTO tInstroctor VALUES (14, '강예진', TO_DATE('1995-11-22', 'YYYY-MM-DD'), '여성', '010-9012-3456', 'yejin95@example.com',TO_DATE('2025-01-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), '서울시 성동구 성수동', 7);
+INSERT INTO tInstroctor VALUES (15, '배준호', TO_DATE('1989-02-14', 'YYYY-MM-DD'), '남성', '010-0123-4567', 'junho89@example.com',TO_DATE('2025-01-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2025-01-01 21:00:00', 'YYYY-MM-DD HH24:MI:SS'),  '서울시 강서구 등촌동', 8);
 
 select * from tInstroctor;
 
